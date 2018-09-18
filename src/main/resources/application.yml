@@ -1,0 +1,65 @@
+server:
+  port: 22222
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.138:9090/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  application:
+    name: upload-tools
+  http:
+      encoding: charset=UTF-8
+      enabled: true
+      force: true
+  datasource:
+    oldplatform:
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://192.168.1.22:3306/edu_happok?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
+    newplatform:
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://192.168.1.22:3306/upload_file?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
+
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+
+path:
+  root: E:\
+
+datetime:
+  begintime: 2018-08-13 00:00:00
+  endtime: 2018-09-13 12:00:00
+
+common:
+  base64: eyJpZCI6IDEsIm5hbWUiOiAi566h55CG5ZGYIiwicm9sZSI6IDMsIm9yZ2FuaXphdGlvbl9pZCI6IDEsImRhdGFfcGVybXMiOiBbMSwgMiwgM119
+  url: http://192.168.1.138:8088/education_resource/my_resources/upload?type=video
+  sql: false
+
+ribbon:
+  ReadTimeout: 120000
+  ConnectTimeout: 30000
+
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false
+
+feign:
+  hystrix:
+    enabled: false

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 首先在namepsace上要和接口绑定，所以我们要把EmployeeMapper接口的全类名赋值过来修改namespace-->
+<!--<mapper namespace="org.mybatis.example.BlogMapper">-->
+
+
+
+<mapper namespace="com.happok.xiyan.uploadtools.mapper.now.SourceMapper">
+    <!--// 从表中获取路径-->
+    <insert id="addSourceInfo" parameterType="com.happok.xiyan.uploadtools.entity.BasicInfoEntity">
+        insert into video_file(source_name,author,path_name)
+        values
+        <if test="lists != null">
+            <foreach collection="lists" item="entity" separator=",">
+                (#{entity.source_name},#{entity.author},#{entity.path_name})
+            </foreach>
+        </if>
+    </insert>
+
+    <!--获取一条数据-->
+    <select id="getSourceInfo" resultType="com.happok.xiyan.uploadtools.entity.SourceEntity">
+        select * from video_file where upload = 0 limit 1
+    </select>
+
+    <!--设置已经上传-->
+    <update id="updateSourceUpload">
+        update video_file set upload = 1 where id = #{sourceId}
+    </update>
+</mapper>

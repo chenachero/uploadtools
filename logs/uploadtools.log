@@ -1,0 +1,220 @@
+2018-09-18 14:55:58.310 [ main ] - [ INFO  ] [ c.h.xiyan.uploadtools.UploadtoolsApplicationTests : 680 ] - No active profile set, falling back to default profiles: default
+2018-09-18 14:56:00.291 [ main ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 56 ] - ªÒ»°±Ì÷– ˝æ›
+2018-09-18 14:56:00.609 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 14:56:00.610 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 14:56:00.616 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 14:56:00.617 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 14:56:02.331 [ main ] - [ INFO  ] [ c.h.xiyan.uploadtools.UploadtoolsApplicationTests : 59 ] - Started UploadtoolsApplicationTests in 5.716 seconds (JVM running for 7.15)
+2018-09-18 14:56:02.842 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2018-09-18 14:56:03.360 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2018-09-18 14:56:03.360 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2018-09-18 14:56:03.601 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2018-09-18 14:56:03.601 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2018-09-18 14:56:04.158 [ Thread-5 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2018-09-18 14:56:04.273 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2018-09-18 14:56:04.274 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2018-09-18 14:56:04.274 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2018-09-18 14:56:04.274 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2018-09-18 14:56:04.274 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2018-09-18 14:56:04.274 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2018-09-18 14:56:04.274 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2018-09-18 14:56:04.747 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2018-09-18 14:56:04.749 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1264 ] - Starting heartbeat executor: renew interval is: 5
+2018-09-18 14:56:04.752 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-18 14:56:04.756 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1537253764755 with initial instances count: 17
+2018-09-18 14:56:04.761 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2018-09-18 14:56:07.764 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2018-09-18 14:56:07.772 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_UPLOAD-TOOLS/192.168.1.22:-1 - deregister  status: 404
+2018-09-18 14:56:07.794 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2018-09-18 17:02:22.556 [ main ] - [ INFO  ] [ c.h.xiyan.uploadtools.UploadtoolsApplicationTests : 680 ] - No active profile set, falling back to default profiles: default
+2018-09-18 17:02:24.456 [ main ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 56 ] - ªÒ»°±Ì÷– ˝æ›
+2018-09-18 17:02:24.684 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 17:02:24.684 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 17:02:24.691 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 17:02:24.691 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 17:02:25.882 [ main ] - [ INFO  ] [ c.h.xiyan.uploadtools.UploadtoolsApplicationTests : 59 ] - Started UploadtoolsApplicationTests in 4.556 seconds (JVM running for 5.339)
+2018-09-18 17:02:26.166 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2018-09-18 17:02:26.549 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2018-09-18 17:02:26.550 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2018-09-18 17:02:26.708 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2018-09-18 17:02:26.709 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2018-09-18 17:02:26.938 [ Thread-5 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2018-09-18 17:02:26.990 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2018-09-18 17:02:26.990 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2018-09-18 17:02:26.990 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2018-09-18 17:02:26.990 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2018-09-18 17:02:26.991 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2018-09-18 17:02:26.991 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2018-09-18 17:02:26.991 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2018-09-18 17:02:27.166 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2018-09-18 17:02:27.170 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1264 ] - Starting heartbeat executor: renew interval is: 5
+2018-09-18 17:02:27.173 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-18 17:02:27.181 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1537261347180 with initial instances count: 17
+2018-09-18 17:02:27.186 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2018-09-18 17:02:30.001 [ pool-1-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 72 ] - ø™ º
+2018-09-18 17:02:30.062 [ pool-1-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2018-09-18 17:02:30.187 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2018-09-18 17:02:30.201 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_UPLOAD-TOOLS/192.168.1.22:-1 - deregister  status: 404
+2018-09-18 17:02:30.221 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2018-09-18 17:08:36.237 [ main ] - [ INFO  ] [ c.h.xiyan.uploadtools.UploadtoolsApplicationTests : 680 ] - No active profile set, falling back to default profiles: default
+2018-09-18 17:08:37.689 [ main ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 56 ] - ªÒ»°±Ì÷– ˝æ›
+2018-09-18 17:08:37.875 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 17:08:37.876 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 17:08:37.883 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 17:08:37.884 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 17:08:39.014 [ main ] - [ INFO  ] [ c.h.xiyan.uploadtools.UploadtoolsApplicationTests : 59 ] - Started UploadtoolsApplicationTests in 3.858 seconds (JVM running for 4.648)
+2018-09-18 17:08:39.224 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2018-09-18 17:08:39.542 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2018-09-18 17:08:39.543 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2018-09-18 17:08:39.646 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2018-09-18 17:08:39.646 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2018-09-18 17:08:39.847 [ Thread-5 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2018-09-18 17:08:39.898 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2018-09-18 17:08:39.899 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2018-09-18 17:08:39.899 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2018-09-18 17:08:39.899 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2018-09-18 17:08:39.899 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2018-09-18 17:08:39.899 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2018-09-18 17:08:39.899 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2018-09-18 17:08:40.001 [ pool-1-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 72 ] - ø™ º
+2018-09-18 17:08:40.018 [ pool-1-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2018-09-18 17:08:40.081 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2018-09-18 17:08:40.084 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1264 ] - Starting heartbeat executor: renew interval is: 5
+2018-09-18 17:08:40.087 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-18 17:08:40.096 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1537261720095 with initial instances count: 17
+2018-09-18 17:08:40.103 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2018-09-18 17:08:40.380 [ pool-1-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2018-09-18 17:08:40.416 [ pool-1-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 75 ] - ---> null
+2018-09-18 17:08:43.106 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2018-09-18 17:08:43.112 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_UPLOAD-TOOLS/192.168.1.22:-1 - deregister  status: 404
+2018-09-18 17:08:43.128 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2018-09-18 17:08:43.133 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 381 ] - HikariPool-1 - Shutdown initiated...
+2018-09-18 17:08:43.144 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 383 ] - HikariPool-1 - Shutdown completed.
+2018-09-18 17:12:53.723 [ main ] - [ INFO  ] [ c.h.xiyan.uploadtools.UploadtoolsApplicationTests : 680 ] - No active profile set, falling back to default profiles: default
+2018-09-18 17:12:55.239 [ main ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 56 ] - ªÒ»°±Ì÷– ˝æ›
+2018-09-18 17:12:55.467 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 17:12:55.468 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 17:12:55.480 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 17:12:55.481 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 17:12:57.084 [ main ] - [ INFO  ] [ c.h.xiyan.uploadtools.UploadtoolsApplicationTests : 59 ] - Started UploadtoolsApplicationTests in 4.648 seconds (JVM running for 5.41)
+2018-09-18 17:12:57.786 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2018-09-18 17:12:58.174 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2018-09-18 17:12:58.175 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2018-09-18 17:12:58.344 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2018-09-18 17:12:58.344 [ Thread-5 ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2018-09-18 17:12:58.676 [ Thread-5 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2018-09-18 17:12:58.809 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2018-09-18 17:12:58.810 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2018-09-18 17:12:58.810 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2018-09-18 17:12:58.810 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2018-09-18 17:12:58.810 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2018-09-18 17:12:58.810 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2018-09-18 17:12:58.811 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2018-09-18 17:12:59.019 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2018-09-18 17:12:59.023 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1264 ] - Starting heartbeat executor: renew interval is: 5
+2018-09-18 17:12:59.027 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-18 17:12:59.033 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1537261979031 with initial instances count: 17
+2018-09-18 17:12:59.084 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2018-09-18 17:13:00.001 [ pool-1-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 72 ] - ø™ º
+2018-09-18 17:13:00.020 [ pool-1-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2018-09-18 17:13:00.289 [ pool-1-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2018-09-18 17:13:02.087 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2018-09-18 17:13:02.099 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_UPLOAD-TOOLS/192.168.1.22:-1 - deregister  status: 404
+2018-09-18 17:13:02.114 [ Thread-5 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2018-09-18 17:13:02.120 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 381 ] - HikariPool-1 - Shutdown initiated...
+2018-09-18 17:13:02.129 [ Thread-5 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 383 ] - HikariPool-1 - Shutdown completed.
+2018-09-18 19:43:38.036 [ main ] - [ INFO  ] [ c.happok.xiyan.uploadtools.UploadtoolsApplication : 680 ] - No active profile set, falling back to default profiles: default
+2018-09-18 19:43:39.190 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-22222"]
+2018-09-18 19:43:39.200 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-09-18 19:43:39.201 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-18 19:43:39.205 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\IntelliJ_IDEA\install\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\IntelSWTools\Intel(R)_Media_SDK_2016.0.1\bin\x64;C:\Program Files (x86)\IntelSWTools\Intel(R)_Media_SDK_2016.0.1\bin\win32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;H:\cmake-3.9.1-win32-x86\bin;C:\Python27;H:\dev\apache-ant-1.10.1\bin;H:\dev\tools;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;G:\FtpPacs\install_x64\FtpAnalysisDCM\tools\dcm4che\bin;D:\software\IntelliJ_IDEA\install\Java\jdk1.8.0_171\bin;D:\software\IntelliJ_IDEA\install\Java\jdk1.8.0_171\jre\bin;C:\msys\1.0\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;D:\software\IntelliJ_IDEA\install\apache-maven-3.3.9\bin;;C:\Program Files\Microsoft VS Code\bin;.]
+2018-09-18 19:43:39.311 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-09-18 19:43:39.908 [ main ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 58 ] - Ëé∑ÂèñË°®‰∏≠Êï∞ÊçÆ
+2018-09-18 19:43:39.940 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 19:43:39.941 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 19:43:39.945 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 19:43:39.945 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 19:43:41.014 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2018-09-18 19:43:41.322 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2018-09-18 19:43:41.323 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2018-09-18 19:43:41.569 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2018-09-18 19:43:41.570 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2018-09-18 19:43:41.885 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2018-09-18 19:43:41.958 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2018-09-18 19:43:41.958 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2018-09-18 19:43:41.958 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2018-09-18 19:43:41.958 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2018-09-18 19:43:41.959 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2018-09-18 19:43:41.959 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2018-09-18 19:43:41.959 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2018-09-18 19:43:42.162 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2018-09-18 19:43:42.166 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1264 ] - Starting heartbeat executor: renew interval is: 5
+2018-09-18 19:43:42.169 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-18 19:43:42.173 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1537271022172 with initial instances count: 18
+2018-09-18 19:43:42.181 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1299 ] - Saw local status change event StatusChangeEvent [timestamp=1537271022181, current=UP, previous=STARTING]
+2018-09-18 19:43:42.185 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_UPLOAD-TOOLS/192.168.1.22:22222: registering service...
+2018-09-18 19:43:42.213 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-22222"]
+2018-09-18 19:43:42.220 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_UPLOAD-TOOLS/192.168.1.22:22222 - registration status: 204
+2018-09-18 19:43:42.223 [ main ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2018-09-18 19:43:42.238 [ main ] - [ INFO  ] [ c.happok.xiyan.uploadtools.UploadtoolsApplication : 59 ] - Started UploadtoolsApplication in 5.316 seconds (JVM running for 8.015)
+2018-09-18 19:44:00.003 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 78 ] - ÂºÄÂßã
+2018-09-18 19:44:00.043 [ pool-7-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2018-09-18 19:44:00.390 [ pool-7-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2018-09-18 19:44:00.412 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 80 ] - SourceEntity(id=1, path_name=cac\1521-77-91 89-85-1_192.168.1.201_upended\output.mp4, author=caca, source_name=wo, media_type=video, origin=import)
+2018-09-18 19:44:00.412 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 88 ] - E:\cac\1521-77-91 89-85-1_192.168.1.201_upended\output.mp4
+2018-09-18 19:44:00.412 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 141 ] - 1
+2018-09-18 19:44:00.412 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 144 ] - 2
+2018-09-18 19:44:00.430 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 146 ] - 3
+2018-09-18 19:44:00.430 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 161 ] - 4
+2018-09-18 19:44:00.430 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 163 ] - 5
+2018-09-18 19:44:01.448 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 90 ] - 
+2018-09-18 19:44:01.455 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 127 ] - Ë∑ØÂæÑ
+2018-09-18 19:44:32.614 [ main ] - [ INFO  ] [ c.happok.xiyan.uploadtools.UploadtoolsApplication : 680 ] - No active profile set, falling back to default profiles: default
+2018-09-18 19:44:33.626 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-22222"]
+2018-09-18 19:44:33.636 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-09-18 19:44:33.636 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-18 19:44:33.640 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\IntelliJ_IDEA\install\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\IntelSWTools\Intel(R)_Media_SDK_2016.0.1\bin\x64;C:\Program Files (x86)\IntelSWTools\Intel(R)_Media_SDK_2016.0.1\bin\win32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;H:\cmake-3.9.1-win32-x86\bin;C:\Python27;H:\dev\apache-ant-1.10.1\bin;H:\dev\tools;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;G:\FtpPacs\install_x64\FtpAnalysisDCM\tools\dcm4che\bin;D:\software\IntelliJ_IDEA\install\Java\jdk1.8.0_171\bin;D:\software\IntelliJ_IDEA\install\Java\jdk1.8.0_171\jre\bin;C:\msys\1.0\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;D:\software\IntelliJ_IDEA\install\apache-maven-3.3.9\bin;;C:\Program Files\Microsoft VS Code\bin;.]
+2018-09-18 19:44:33.744 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-09-18 19:44:34.277 [ main ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 58 ] - Ëé∑ÂèñË°®‰∏≠Êï∞ÊçÆ
+2018-09-18 19:44:34.308 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 19:44:34.309 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 19:44:34.312 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2018-09-18 19:44:34.312 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-18 19:44:35.374 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2018-09-18 19:44:35.576 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2018-09-18 19:44:35.577 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2018-09-18 19:44:35.683 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2018-09-18 19:44:35.684 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2018-09-18 19:44:35.921 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2018-09-18 19:44:35.969 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2018-09-18 19:44:35.969 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2018-09-18 19:44:35.969 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2018-09-18 19:44:35.970 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2018-09-18 19:44:35.970 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2018-09-18 19:44:35.970 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2018-09-18 19:44:35.970 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2018-09-18 19:44:36.117 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2018-09-18 19:44:36.120 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1264 ] - Starting heartbeat executor: renew interval is: 5
+2018-09-18 19:44:36.123 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-18 19:44:36.126 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1537271076125 with initial instances count: 19
+2018-09-18 19:44:36.132 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1299 ] - Saw local status change event StatusChangeEvent [timestamp=1537271076132, current=UP, previous=STARTING]
+2018-09-18 19:44:36.134 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_UPLOAD-TOOLS/192.168.1.22:22222: registering service...
+2018-09-18 19:44:36.188 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-22222"]
+2018-09-18 19:44:36.204 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_UPLOAD-TOOLS/192.168.1.22:22222 - registration status: 204
+2018-09-18 19:44:36.206 [ main ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2018-09-18 19:44:36.225 [ main ] - [ INFO  ] [ c.happok.xiyan.uploadtools.UploadtoolsApplication : 59 ] - Started UploadtoolsApplication in 4.864 seconds (JVM running for 5.65)
+2018-09-18 19:45:00.026 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 78 ] - ÂºÄÂßã
+2018-09-18 19:45:00.047 [ pool-7-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2018-09-18 19:45:00.265 [ pool-7-thread-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2018-09-18 19:45:00.286 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 80 ] - SourceEntity(id=1, path_name=cac\1521-77-91 89-85-1_192.168.1.201_upended\output.mp4, author=caca, source_name=wo, media_type=video, origin=import)
+2018-09-18 19:45:00.286 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 88 ] - E:\cac\1521-77-91 89-85-1_192.168.1.201_upended\output.mp4
+2018-09-18 19:45:00.286 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 141 ] - 1
+2018-09-18 19:45:00.286 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 144 ] - 2
+2018-09-18 19:45:00.289 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 146 ] - 3
+2018-09-18 19:45:00.289 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 161 ] - 4
+2018-09-18 19:45:00.289 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 163 ] - 5
+2018-09-18 19:45:00.291 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 165 ] - 6
+2018-09-18 19:45:00.306 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 167 ] - 7
+2018-09-18 19:45:00.306 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 172 ] - 8
+2018-09-18 19:45:00.307 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 179 ] - 9
+2018-09-18 19:45:00.307 [ pool-7-thread-1 ] - [ INFO  ] [ com.happok.xiyan.uploadtools.service.VideoFile : 181 ] - 10

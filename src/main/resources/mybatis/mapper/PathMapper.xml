@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 首先在namepsace上要和接口绑定，所以我们要把EmployeeMapper接口的全类名赋值过来修改namespace-->
+<!--<mapper namespace="org.mybatis.example.BlogMapper">-->
+
+
+
+<mapper namespace="com.happok.xiyan.uploadtools.mapper.old.PathMapper">
+    <!--// 从表中获取路径-->
+    <select id="getResourcePath" resultType="com.happok.xiyan.uploadtools.entity.BasicInfoEntity">
+        select v.V_URL as path_name,r.RES_TEACHER as author,r.RES_TITLE as source_name
+        from
+            tb_d_video v,tb_d_resource r
+        where
+            v.CREATE_TIME BETWEEN #{begintime,jdbcType=VARCHAR} AND #{endtime,jdbcType=VARCHAR}
+            and v.RES_ID = r.RES_ID
+    </select>
+
+</mapper>
