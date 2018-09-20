@@ -19,6 +19,33 @@
         </if>
     </insert>
 
+    <insert id="addSourceInfoOne">
+        insert into video_file
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="source_name != null">
+                source_name,
+            </if>
+            <if test="author != null">
+                author,
+            </if>
+            <if test="path_name != null">
+                path_name,
+            </if>
+        </trim>
+        values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="source_name != null">
+                #{source_name},
+            </if>
+            <if test="author != null">
+                #{author},
+            </if>
+            <if test="path_name != null">
+                #{path_name},
+            </if>
+        </trim>
+    </insert>
+
     <!--获取一条数据-->
     <select id="getSourceInfo" resultType="com.happok.xiyan.uploadtools.entity.SourceEntity">
         select * from video_file where upload = 0 limit 1

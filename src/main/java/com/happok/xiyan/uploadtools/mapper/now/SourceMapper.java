@@ -12,6 +12,9 @@ public interface SourceMapper {
     // 批量插入
     boolean addSourceInfo(@Param("lists") List<BasicInfoEntity> lists);
 
+    // 单条插入
+    boolean addSourceInfoOne(BasicInfoEntity basicInfoEntity);
+
     // 获取全部的数据
     List<SourceEntity> getSourceList();
 

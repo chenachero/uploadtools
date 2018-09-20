@@ -18,6 +18,7 @@ import com.happok.xiyan.uploadtools.util.Base64Util;
 import feign.FeignException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
@@ -27,6 +28,8 @@ import javax.annotation.Resource;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -51,33 +54,38 @@ public class VideoFile {
     @Autowired
     private PathConfig pathConfig;
 
-    private boolean isStart = true;
-
-    @PostConstruct
-    private void initialization(){
-        log.info("获取表中数据");
+    @Scheduled(cron = "0 0/2 * * * *")
+    public void scheduled1() {
         if(commonConfig.getSql()){
-            if(!StringUtils.isEmpty(datatimeConfig.getBegintime()) && !StringUtils.isEmpty(datatimeConfig.getEndtime())){
-                List<BasicInfoEntity> pathEntities = pathMapper.getResourcePath(datatimeConfig.getBegintime(),datatimeConfig.getEndtime());
+            log.info("查询数据库");
+            if(!StringUtils.isEmpty(datatimeConfig.getBegintime())){
+                String end_time;
+                if (StringUtils.isEmpty(datatimeConfig.getEndtime())){
+                    log.info("结束时间为空");
+                    SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                    end_time = df.format(new Date());
+                }else {
+                    end_time = datatimeConfig.getEndtime();
+                }
+                List<BasicInfoEntity> pathEntities = pathMapper.getResourcePath(datatimeConfig.getBegintime(),end_time);
                 log.info("数据总条数 = " + pathEntities.size());
-                // 插入新数据库
-                if(sourceMapper.addSourceInfo(pathEntities)){
-                    log.info("插入数据成功");
+
+                for (BasicInfoEntity item : pathEntities){
+                    try {
+                        if (sourceMapper.addSourceInfoOne(item)){
+                            log.info("添加成功 " + item.toString());
+                        }
+                    }catch (DuplicateKeyException exc){
+                        log.info("重复添加，跳过");
+                        continue;
+                    }
                 }
             }
         }
-    }
 
-    @Scheduled(cron = "0 0/1 * * * *")
-    public void scheduled1() {
-        if(!isStart){
-            return ;
-        }
-        isStart = false;
         // 单个取出来
         log.info("开始");
         SourceEntity sourceEntity = sourceMapper.getSourceInfo();
-        log.info(sourceEntity.toString());
         if(ObjectUtils.isEmpty(sourceEntity)){
             log.info("---> null");
             return ;
@@ -121,7 +129,6 @@ public class VideoFile {
                     }
                     sourceMapper.updateSourceUpload(sourceEntity.getId());
                     log.info("完成");
-                    isStart = true;
                 }
             }else{
                 log.info("路径" + str.toString());
@@ -144,13 +151,12 @@ public class VideoFile {
             log.info("2");
             conn = (HttpURLConnection) url.openConnection();
             log.info("3");
-            //conn.setConnectTimeout(5000);
-            //conn.setReadTimeout(30000);
             //设置为true后，之后就可以使用conn.getOutputStream()
             conn.setDoOutput(true);
             //设置为true后，之后就可以使用conn.getInputStream()
             conn.setDoInput(true);
             conn.setUseCaches(true);
+            conn.setChunkedStreamingMode(2048);// 为了解决大文件上传添加
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Connection", "Keep-Alive");
             conn.setRequestProperty("User-Agent",
@@ -185,6 +191,7 @@ public class VideoFile {
             byte[] bufferOut = new byte[2048];
             while ((bytes = in.read(bufferOut)) != -1) {
                 out.write(bufferOut, 0, bytes);
+                out.flush();// 解决大文件上传添加
             }
             log.info("11");
             in.close();

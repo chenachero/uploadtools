@@ -42,12 +42,12 @@ path:
 
 datetime:
   begintime: 2018-08-13 00:00:00
-  endtime: 2018-09-13 12:00:00
+  endtime:
 
 common:
   base64: eyJpZCI6IDEsIm5hbWUiOiAi566h55CG5ZGYIiwicm9sZSI6IDMsIm9yZ2FuaXphdGlvbl9pZCI6IDEsImRhdGFfcGVybXMiOiBbMSwgMiwgM119
   url: http://192.168.1.138:8088/education_resource/my_resources/upload?type=video
-  sql: false
+  sql: true
 
 ribbon:
   ReadTimeout: 120000
