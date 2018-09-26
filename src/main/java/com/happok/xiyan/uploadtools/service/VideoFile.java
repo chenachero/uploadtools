@@ -72,6 +72,9 @@ public class VideoFile {
 
                 for (BasicInfoEntity item : pathEntities){
                     try {
+                        if (StringUtils.isEmpty(item.getAuthor())){
+                            item.setAuthor("北京汉博");
+                        }
                         if (sourceMapper.addSourceInfoOne(item)){
                             log.info("添加成功 " + item.toString());
                         }

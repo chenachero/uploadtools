@@ -18,9 +18,9 @@ spring:
   application:
     name: upload-tools
   http:
-      encoding: charset=UTF-8
-      enabled: true
-      force: true
+    encoding: charset=UTF-8
+    enabled: true
+    force: true
   datasource:
     oldplatform:
       username: root
@@ -41,8 +41,8 @@ path:
   root: E:\
 
 datetime:
-  begintime: 2018-08-13 00:00:00
-  endtime:
+  begintime: 2018-03-01 00:00:00
+  endtime: 2018-08-01 00:00:00
 
 common:
   base64: eyJpZCI6IDEsIm5hbWUiOiAi566h55CG5ZGYIiwicm9sZSI6IDMsIm9yZ2FuaXphdGlvbl9pZCI6IDEsImRhdGFfcGVybXMiOiBbMSwgMiwgM119
