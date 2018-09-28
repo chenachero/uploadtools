@@ -232,10 +232,10 @@ public class VideoFile {
             System.out.println("发送POST请求出错。" + urlStr);
             e.printStackTrace();
         } finally {
-            if (conn != null) {
-                conn.disconnect();
-                conn = null;
-            }
+//            if (conn != null) {
+//                conn.disconnect();
+//                conn = null;
+//            }
         }
         return res;
     }
